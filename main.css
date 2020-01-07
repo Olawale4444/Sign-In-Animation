@@ -1,0 +1,96 @@
+  body{
+  padding: 0;
+  margin: 0;
+  font-family: 'montserrat',sans-serif;
+  background: lightblue;
+}
+.forms{
+  width: 450px;
+  padding: 40px;
+  transform: translate(-51%,-51%);
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 28px;
+  animation: fadein 1.2s ease-in-out forwards;
+  animation-delay: 0.75;
+  opacity:0;
+}
+
+@keyframes fadein{
+  0% {opacity: 0 ; }
+  50% {opacity: 0.1; }
+  100% {opacity:1; }
+}
+
+.forms input[type = "text"],.forms input[type = "password"]{
+  border:0;
+  border: 3px solid #3498db;
+  padding: 14px 12px;
+  width: 300px;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  outline: none;
+  color: white;
+  border-radius: 12px;
+  transition: 0.35s;
+}
+
+.forms h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.forms input[type = "text"]:focus,.forms input[type = "password"]:focus{
+  width: 280px;
+  border-color: orange;
+}
+.forms input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2.1px dotted orange;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 12px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.forms input[type = "submit"]:hover{
+  background: orange;
+}
+.gh{
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 25px;
+   font-size: 25px;
+   font-family: intro;
+}
+
+.gh2{
+   padding-top: 5px;
+     font-weight: 500;
+}
+
+
+.gh1{
+color: ;
+text-transform: uppercase;
+
+}
+
+.forgot{
+  color: lightblue;
+  font-size: 12px;
+  padding: 10px;
+}
+
+
